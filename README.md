@@ -3,15 +3,15 @@ I created a scalable modular Angular template oriented to MV* pattern based on w
 
 ## Core module
 
-We should place here those services we are using in whole the application so we just need one instance of them. Also, interceptors and general interfaces should be here.
+We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors and general interfaces should be here.
 
 ## Feat folder
 
 Features of your application that can be grouped in modules because each of them are related should be here.
 A feat module should contains the following folders: 
 - components.
-- modules: this is because I thinkg can have submodules of our feat modules. They follow the same pattern I'm describing.
-- services: only those who this will be using.
+- modules: this is because I think we can have submodules of our feat modules. These submodules follow the same pattern I'm describing.
+- services: only those who the module will be using.
 - interfaces: create interfaces help you to define the structure of the data you're going to be handling.
 - pages: Place here those components which represent main wrappers of your module.
 - guards.
@@ -23,7 +23,7 @@ Place here components, directives and pipes that you could use in whatever part 
 ## Global aliases
 
 I created some alias that you can use in whatever part of your application and will make your code more readable:
-If you want import core module or something there you just have to type @core and it will refer to the top core folder. You can do the same with shared module.
+If you want import core module or something there you just have to type @core and it will refer the top core folder. You can do the same with shared module.
 
 Note: I defined this in tsconfig file.
 
