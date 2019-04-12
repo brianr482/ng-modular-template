@@ -4,9 +4,7 @@ import { CommonModule } from '@angular/common';
 /* Global Services, Guards */
 
 @NgModule({
-  imports: [
-    CommonModule,
-  ],
+  imports: [],
   declarations: [],
   providers: []
 })
