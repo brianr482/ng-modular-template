@@ -3,7 +3,7 @@ I created a scalable modular Angular template oriented to MV* pattern based on w
 
 ## Core module
 
-We should place here those services we are using in whole the application so we just need one instance of them. Also, interceptors and general models should be here.
+We should place here those services we are using in whole the application so we just need one instance of them. Also, interceptors and general interfaces should be here.
 
 ## Feat folder
 
