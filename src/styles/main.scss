@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@charset 'utf-8';
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/helpers'; /* Placeholders and utils classes */
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/lists';
