@@ -45,7 +45,3 @@ You can find more information related to this in the following links:
 - https://scotch.io/tutorials/angular-shortcut-to-importing-styles-files-in-components
 - https://angular.io/guide/sharing-ngmodules
 - https://medium.com/@tomastrajan/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
