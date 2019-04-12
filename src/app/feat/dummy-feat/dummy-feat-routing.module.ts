@@ -5,6 +5,10 @@ import { DummySubModule } from './modules/dummy-sub/dummy-sub.module';
 
 const routes: Routes = [
   {
+    path: '**',
+    redirectTo: 'dummy-component'
+  },
+  {
     path: 'dummy-component',
     component: DummyComponent,
     children: [
