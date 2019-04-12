@@ -31,6 +31,8 @@ Note: I defined this in tsconfig file.
 
 I created a styles folder in the top of src and I applied 7-1 sass pattern into it. This make our project more scalable in terms of css styles.
 
+Note: I defined this in angular.json file.
+
 ## Easily main sass files referencing
 
 I defined src/styles as an extra path for sass imports checks so if you want to import some sass file of top styles folder you just have to type the path of the file relative to styles folder. For example, `@import "abstracts/variables";`.
