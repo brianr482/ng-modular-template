@@ -41,9 +41,19 @@ I defined src/styles as an extra path for sass imports checks so if you want to 
 
 Run `ng serve` and navigate to `http://localhost:4200/`.
 
+## Production build
+Run `ng build --prod`. You will get the compiled project in the following path: `project-folder/dist/`.
+
+**Note**:
+If you are not going to deploy the project in root path `/`, you should consider adding the following flags:
+  - `--base-href=your-path`
+  - `--output-path=your-path`
+  - `--deploy-url=your-path`
+
 ## Thanks
 You can find more information related to this in the following links:
 - https://sass-guidelin.es/#architecture
 - https://scotch.io/tutorials/angular-shortcut-to-importing-styles-files-in-components
 - https://angular.io/guide/sharing-ngmodules
 - https://medium.com/@tomastrajan/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81
+- https://angular.io/guide/ngmodule-faq#what-kinds-of-modules-should-i-have-and-how-should-i-use-them
