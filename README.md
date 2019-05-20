@@ -3,7 +3,9 @@ I created a scalable modular Angular template oriented to MV* pattern based on w
 
 ## Core module
 
-We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors and general interfaces should be here.
+We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors and interfaces should be here.
+**Note**
+Create interfaces help you to define the structure of the data you're going to be handling.
 
 ## Feat folder
 
@@ -12,7 +14,6 @@ A feat module should contains the following folders:
 - components.
 - modules: this is because I think we can have submodules of our feat modules. These submodules follow the same pattern I'm describing.
 - services: only those who the module will be using.
-- interfaces: create interfaces help you to define the structure of the data you're going to be handling.
 - pages: Place here those components which represent main wrappers of your module.
 - guards.
 
