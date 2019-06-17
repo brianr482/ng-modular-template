@@ -1,5 +1,5 @@
 # Ng Modular Template
-I created a scalable modular Angular template oriented to MV* pattern based on what I have read about scalable project structure, sugar syntax, readable code and my experience.
+I created a scalable modular Angular template oriented to MV* pattern based on what I have read about scalable project structure, sugar syntax, readable code and my experience, and using Angular CLI.
 
 ## Core module
 
