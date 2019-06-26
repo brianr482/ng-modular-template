@@ -6,7 +6,7 @@ I created a scalable modular Angular template oriented to MV* pattern based on w
 We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors and interfaces should be here.
 
 **Note**
-Create interfaces help you to define the structure of the data you're going to be handling.
+Creating interfaces helps you to define the structure of the data you're going to be handling.
 
 ## Feat folder
 
