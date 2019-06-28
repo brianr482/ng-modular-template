@@ -12,7 +12,7 @@ Creating interfaces helps you to define the structure of the data you're going t
 
 Features of your application that can be grouped in modules because each of them are related should be here.
 A feat module should contains the following folders: 
-- components.
+- components: Try to decompose the feature into different components.
 - modules: this is because I think we can have submodules of our feat modules. These submodules follow the same pattern I'm describing.
 - services: only those who the module will be using.
 - pages: Place here those components which represent main wrappers of your module.
