@@ -43,6 +43,8 @@ I defined src/styles as an extra path for sass imports checks so if you want to 
 
 Run `ng serve` and navigate to `http://localhost:4200/`.
 
+The app will automatically reload if you change any of the source files.
+
 ## Production build
 Run `ng build --prod`. You will get the compiled project in the following path: `project-folder/dist/`.
 
