@@ -3,7 +3,7 @@ I created a scalable modular Angular template oriented to MV* pattern based on w
 
 ## Core module
 
-We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors and interfaces should be here.
+We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors, interfaces and global guards should be here.
 
 **Note**
 Creating interfaces helps you to define the structure of the data you're going to be handling.
