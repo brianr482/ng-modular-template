@@ -5,7 +5,7 @@ I created a scalable modular Angular template oriented to MV* pattern based on w
 
 We should place here those services we are going to use in whole the application so we just need one instance of them. Also, interceptors, interfaces and global guards should be here.
 
-**Note**
+**Note**:
 Creating interfaces helps you to define the structure of the data you're going to be handling.
 
 ## Feat folder
@@ -33,7 +33,8 @@ Note: I defined this in tsconfig file.
 
 I created a styles folder in the top of src and I applied 7-1 sass pattern into it. This make our project more scalable in terms of css styles.
 
-Note: I defined this in angular.json file.
+**Note**:
+I defined this in angular.json file.
 
 ## Easily main sass files referencing
 
