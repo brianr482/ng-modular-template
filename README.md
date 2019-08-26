@@ -27,7 +27,8 @@ Place here components, directives and pipes that you could use in whatever part 
 I created some alias that you can use in whatever part of your application and will make your code more readable:
 If you want import core module or something there you just have to type @core and it will refer the top core folder. You can do the same with shared module.
 
-Note: I defined this in tsconfig file.
+**Note**:
+I defined this in tsconfig file.
 
 ## 7-1 Sass pattern
 
