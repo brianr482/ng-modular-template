@@ -53,7 +53,6 @@ Run `ng build --prod`. You will get the compiled project in the following path: 
 **Note**:
 If you are not going to deploy the project in root path `/`, you should consider adding the following flags:
   - `--base-href=your-path`
-  - `--output-path=your-path`
   - `--deploy-url=your-path`
 
 ## Thanks
