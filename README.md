@@ -35,7 +35,7 @@ I defined this in tsconfig file.
 I created a styles folder in the top of src and I applied 7-1 sass pattern into it. This make our project more scalable in terms of css styles.
 
 **Note**:
-I defined this in angular.json file.
+I defined this in the angular.json file.
 
 ## Easily main sass files referencing
 
