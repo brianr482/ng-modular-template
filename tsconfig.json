@@ -5,7 +5,10 @@
     "downlevelIteration": true,
     "paths": {
       "@app/*": ["app/*"],
-      "@env/*": ["environments/*"]      
+      "@env/*": ["environments/*"],
+      "@core/*": ["app/core/*"],
+      "@feat/*": ["app/feat/*"],
+      "@shared/*": ["app/shared/*"],
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
